@@ -15,10 +15,10 @@ object PaginationAPI {
     }
 }
 
-object PaginationAPIWithImage {
+object PaginationAPIWithImages {
     private const val BASE_URL = "https://reqres.in/api/"
 
-    val api: PaginationApiWithImage by lazy {
+    val api2: PaginationApiWithImage by lazy {
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
