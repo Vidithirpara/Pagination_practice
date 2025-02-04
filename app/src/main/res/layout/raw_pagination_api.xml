@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/rounded_corner_gray3">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pradhan mantri jan dhan yojana"
+            style="@style/poppinsSemiBold"
+            android:textSize="@dimen/_11ssp"/>
+
+        <TextView
+            android:id="@+id/tvBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pradhan mantri jan dhan yojana"
+            style="@style/ralewayRegular"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:textSize="@dimen/_11ssp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
